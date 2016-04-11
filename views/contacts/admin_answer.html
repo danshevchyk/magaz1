@@ -1,0 +1,23 @@
+<h3>Переписка</h3><br/>
+<table class="table table-striped" style="width: 100%;">
+    <tr>
+
+        <td style="width: 10%;">Name</td>
+        <td style="width: 45%;">Message</td>
+        <td style="width: 30%;">Date</td>
+
+    </tr>
+    <?php foreach($data as $item) { ?>
+    <tr>
+
+        <td><?=$data['contact']['name']?></td>
+        <td><?=$data['contact']['message']?></td>
+        <td><?=$data['contact']['date']?></td>
+
+    </tr>
+    <?php } ?>
+</table>
+    <form action="" method="post">
+        <textarea name="message" class="form-control" placeholder="Ваше сообщение" required></textarea><br/>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Отправить</button>
+    </form>

@@ -1,0 +1,20 @@
+<h3>Обратная связь:</h3>
+<<<<<<< HEAD
+<?php if ( isset($_SESSION['login']) ) { ?>
+<form action="" method="post">
+    <input type="hidden" class="form-control" name="login" value="<?=ucfirst(Session::get('login'))?>" ><br/>
+    <input type="email" class="form-control" name="email" placeholder="Ваш email:" required><br/>
+    <textarea name="message" class="form-control" rows="5" placeholder="Ваше сообщение:" required></textarea><br/>
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Отправить</button>
+</form>
+
+<?php } ?>
+=======
+
+<form action="" method="post">
+    <input type="text" class="form-control" name="login" placeholder="Ваше имя: " ><br/>
+    <input type="text" class="form-control" name="email" placeholder="Ваш email: " ><br/>
+    <textarea name="message" class="form-control" placeholder="Ваше сообщение" required></textarea><br/>
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Отправить</button>
+</form>
+>>>>>>> 3bfe73c050ac6cd9e40f3501da855beaab429623

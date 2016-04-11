@@ -1,0 +1,27 @@
+body{
+    padding-top: 50px;
+<<<<<<< HEAD
+    background: url(http://shooltz.ru/wp-content/uploads/2012/01/texture1.png) top center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+=======
+
+>>>>>>> 3bfe73c050ac6cd9e40f3501da855beaab429623
+}
+.starter-template{
+    padding: 40px 15px;
+    color: black;
+}
+form{
+    width: 400px;
+    max-width: 400px;
+<<<<<<< HEAD
+}
+.alert{
+    width: 400px;
+    max-width: 400px;
+=======
+>>>>>>> 3bfe73c050ac6cd9e40f3501da855beaab429623
+}
